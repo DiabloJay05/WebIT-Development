@@ -3,7 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
-    color: #5F9BDC; by by
+    
   }
 nav {
     background-color: #38174A;
@@ -45,32 +45,30 @@ ul li {
 color: #678cc9;
 text-align: center;
   }
- .banner-img {
-    width: 100%;
-    height: auto;
-    position: relative;
- }
- 
- .banner-text {
-    position: absolute;
-    top: 20%;
-    left: 80%;
-    font-size: clamp (50px, 8vw, 100px);
- }
- .banner-text h1 {
-  color: #5F9BDC;
-  font-size: 18;
- }
-th td {
-  color: #5F9BDC;
- }
- .home-logo {
-  position: absolute;
-  height: auto;
-  left: 0px;
-  width: 50px;
- }
- .card-container{
+
+.banner-img {
+        width: 100%;
+        height: auto;
+        position: relative;
+     }
+     
+.banner-text {
+        position: absolute;
+        top: 18%;
+        left: 2%;
+        padding-top: 5%;
+        font-size: large;
+        color: navy;
+        
+       
+     }
+.home-logo {
+        position: absolute;
+        height: auto;
+        left: 0px;
+        width: 50px;
+       }
+.card-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -89,6 +87,7 @@ th td {
  }
 .card-content {
   padding: 16px;
+  color: #5F9BDC;
 }
 .card-content h3 {
   font-size: 28px;
@@ -104,18 +103,4 @@ th td {
   text-decoration: none;
   border-radius: 4px;
   margin-top: 16px;
-}
-.call-to-action{
- display: block;
- color: #38174A;
-}
-button {
-  color: #38174A;
-  background-color: #BE60A1;
-  border-radius: 40px;
-  border: 0;
-  margin: 1rem 0;
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  font-weight: 600;
 }
